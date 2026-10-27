@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+@media screen and (min-width: 768px) {
+    div {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div {
+        background-color: tan;
+        color: black;
+    }
+}
+body{
+flex-direction:row ;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+@media screen and (max-width:400px){
+body{
+    flex-direction: column;
+    display: flex;
+}
+}
